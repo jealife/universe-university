@@ -1,7 +1,7 @@
 
 import { Navigation } from './Navigation'
 import './nav.css'
-import Link from 'next/link'
+import a from 'next/link'
 
 const navLinks = [
     { name: 'Home', href: '/' },
@@ -16,14 +16,14 @@ function Nav() {
             </menu>
 
             <div className="logo">
-                <Link href='/' > <h2 className='font-bold text-2xl'>Univerz University</h2> </Link>
+                <a href='/' > <h2 className='font-bold text-2xl'>Univerz University</h2> </a>
             </div>
  
             <div className='btn_nav lg:flex lg:flex-row flex-col gap-3 hidden'>
-                <Link href='/login' className='btn_link font-semibold text-white  duration-300 hover:text-[#799aff] '>Courses 
-                </Link>
-                <Link href='/login' className='btn_link font-semibold text-white duration-300 hover:text-[#799aff] '>blog 
-                </Link>
+                <a href='/login' className='btn_link font-semibold text-white  duration-300 hover:text-[#799aff] '>Courses 
+                </a>
+                <a href='/login' className='btn_link font-semibold text-white duration-300 hover:text-[#799aff] '>blog 
+                </a>
             </div>
         </nav>
     )
