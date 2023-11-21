@@ -7,7 +7,7 @@ export default function Footer() {
                 <h2 className='text-5xl font-bold'>Univerz</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, totam?</p>
             </div>
-            <div className="links  gap-5 flex felx-col">
+            <div className="links  gap-5 flex flex-col">
                 <h3 className="text-white font-semibold text-lg">Quicks links</h3>
                 <div className="links flex flex-col text-white">
                     <a href="#"> Home </a>
@@ -16,7 +16,7 @@ export default function Footer() {
                     <a href="#"> Contat Us</a>
                 </div>
             </div>
-            <div className="links  gap-5 flex felx-col">
+            <div className="links  gap-5 flex flex-col">
                 <h3 className="text-white font-semibold text-lg">Pages</h3>
                 <div className="links flex flex-col text-white">
                     <a href="#"> Our Blog </a>
@@ -25,7 +25,7 @@ export default function Footer() {
                     <a href="#"> CTA</a>
                 </div>
             </div>
-            <div className="links gap-5 flex felx-col">
+            <div className="links gap-5 flex flex-col">
                 <h3 className="text-white font-semibold text-lg">Follow Us</h3>
                 <div className="links flex flex-col text-white">
                     <a href="#"> Our Blog </a>
