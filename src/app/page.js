@@ -1,5 +1,6 @@
 import Hero from "./hero/Hero"
-import Nav from "./nav/Nav"
+import Nav from "../components/nav/Nav"
+import Footer from "@/components/footer/Footer"
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
         <Hero/>
 
       </main>
+      <footer className="w-full flex items-center justify-center lg:p-7 px-3 bg-[#0540F2]" >
+        <Footer/>
+      </footer>
     </>
   )
 }
