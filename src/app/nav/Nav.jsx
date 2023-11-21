@@ -10,7 +10,7 @@ const navLinks = [
 
 function Nav() {
     return (
-        <nav className=' flex  lg: flex-row lg:justify-between items-center w-full max-w-6xl justify-center py-3'>
+        <nav className=' flex  lg: flex-row lg:justify-between items-center w-full max-w-6xl justify-center py-5'>
             <menu className='lg:flex lg:flex-row flex-col gap-3  items-center  hidden' >
                 <Navigation  navLinks={navLinks} />
             </menu>
