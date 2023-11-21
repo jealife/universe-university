@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="overlay grid place-items-center w-full h-screen bg-black/50 px-2">
 
         <div className="hero-content max-w-3xl   text-white flex flex-col items-center gap-5 text-center">
-          <h1 className='lg:text-7xl text-4xl font-bold capitalize'>
+          <h1 className='lg:text-7xl text-6xl font-bold capitalize'>
             shaping the future through education and innovation
           </h1>
           <p>
